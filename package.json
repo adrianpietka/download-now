@@ -1,0 +1,31 @@
+{
+  "name": "download-now",
+  "version": "1.0.0",
+  "description": "Download content using HTML5. Based on FileSaver.js (version 1.3.3).",
+  "main": "DownloadNow.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "node_modules/.bin/uglifyjs DownloadNow.js --mangle --comments /@source/ > DownloadNow.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrianpietka/download-now"
+  },
+  "keywords": [
+    "filesaver",
+    "saveas",
+    "blob"
+  ],
+  "authors": [
+    "Adrian Pietka <adrian@pietka.me>",
+    "Eli Grey <me@eligrey.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrianpietka/download-now/issues"
+  },
+  "homepage": "https://github.com/adrianpietka/download-now#readme",
+  "devDependencies": {
+    "uglify-js": "^2.6.2"
+  }
+}
